@@ -8,77 +8,194 @@
 ![MCU](https://img.shields.io/badge/MCU-Arduino%20Nano-blue)
 ![CAD](https://img.shields.io/badge/CAD-KiCad-purple)
 ![DRC](https://img.shields.io/badge/DRC-Passed-brightgreen)
+![Languages](https://img.shields.io/badge/README-FR%20%7C%20EN-informational)
+
+*Conception d'une interface de raccordement pour Arduino Nano.*
 
 </div>
 
-## 🇫🇷 Présentation
+---
 
-Ce projet porte sur la conception d'une carte d'adaptation destinée à l'Arduino Nano. Elle permet de rendre les broches de la carte plus accessibles à travers des borniers à vis, afin de faciliter le raccordement des différents éléments d'un montage électronique.
+**Marque / Brand:** OLITECH  
+**Concepteur / Designer:** OLI OLI DONALD  
+**Pays / Country:** Cameroun / Cameroon  
+**Microcontrôleur:** Arduino Nano  
+**Logiciel de conception:** KiCad EDA  
 
-La conception électronique et le routage du circuit imprimé ont été réalisés avec **KiCad**.
+## Sommaire / Table of contents
 
-## Objectifs
+- [🇫🇷 Français](#-français)
+  - [Présentation](#présentation)
+  - [Objectifs](#objectifs)
+  - [Caractéristiques techniques](#caractéristiques-techniques)
+  - [Travaux réalisés](#travaux-réalisés)
+  - [Galerie du projet](#galerie-du-projet)
+  - [État et limites du projet](#état-et-limites-du-projet)
+  - [Documentation technique](#documentation-technique)
+- [🇬🇧 English](#-english)
+  - [Overview](#overview)
+  - [Objectives](#objectives)
+  - [Technical specifications](#technical-specifications)
+  - [Work completed](#work-completed)
+  - [Project gallery](#project-gallery)
+  - [Project status and limitations](#project-status-and-limitations)
+  - [Technical documentation](#technical-documentation)
+- [Contact](#contact)
 
-- Faciliter le raccordement des signaux de l'Arduino Nano.
-- Regrouper les connexions sur des borniers à vis.
-- Proposer une carte d'interface pratique pour les montages électroniques.
+---
 
-## Travaux réalisés
+## 🇫🇷 Français
 
-- Conception du schéma électronique.
-- Conception et routage du PCB.
-- Vérification des règles de conception (DRC) du schéma et du PCB.
-- Correction des erreurs détectées jusqu'à l'obtention d'un contrôle DRC sans erreur.
+### Présentation
 
-## État du projet
+**Arduino Nano Terminal Adapter** est un projet de conception d'une carte électronique d'adaptation destinée à l'Arduino Nano.
+
+Cette carte permet de faciliter l'accès aux différentes broches de l'Arduino Nano grâce à des borniers à vis, afin de simplifier le raccordement des signaux et des périphériques dans les montages électroniques.
+
+Le schéma électronique et le circuit imprimé ont été conçus sous **KiCad EDA**.
+
+### Objectifs
+
+- Faciliter le raccordement des broches de l'Arduino Nano.
+- Regrouper les connexions à travers des borniers à vis.
+- Concevoir une interface pratique pour les montages électroniques.
+- Vérifier la conformité du schéma et du PCB aux règles de conception.
+
+### Caractéristiques techniques
+
+| Paramètre | Description |
+|---|---|
+| Application | Carte d'adaptation pour Arduino Nano |
+| Carte compatible | Arduino Nano |
+| Connectique | Borniers à vis |
+| Logiciel de conception | KiCad EDA |
+| Conception électronique | Schéma électronique |
+| Conception PCB | Réalisée |
+| Vérification DRC | Réussie, aucune erreur |
+
+### Travaux réalisés
+
+- Conception du schéma électronique sous KiCad.
+- Conception et routage du circuit imprimé.
+- Vérification DRC du schéma électronique.
+- Vérification DRC du PCB.
+- Correction des erreurs détectées jusqu'à l'obtention de contrôles sans erreur.
+
+### Galerie du projet
+
+Les images suivantes présentent différentes vues du travail de conception de la carte d'adaptation.
+
+| Vue de conception | Aperçu |
+|---|---|
+| Vue 1 | ![Vue 1](images/ADAPTATEUR%20NANO-2.jpg) |
+| Vue 2 | ![Vue 2](images/ADAPTATEUR%20NANO1-2.jpg) |
+| Vue 3 | ![Vue 3](images/ADAPTATEUR%20NANO1-2.png) |
+| Vue 4 | ![Vue 4](images/IMG-20261109-WA0032.jpg) |
+| Vue 5 | ![Vue 5](images/IMG-20261109-WA0034.jpg) |
+| Vue 6 | ![Vue 6](images/IMG-20261109-WA0037.jpg) |
+
+### État et limites du projet
 
 | Élément | Statut |
 |---|---|
 | Schéma électronique | Réalisé |
-| Routage PCB | Réalisé |
-| Vérification DRC | Réussie, aucune erreur |
+| Conception PCB | Réalisée |
+| Vérification DRC du schéma | Réussie, aucune erreur |
+| Vérification DRC du PCB | Réussie, aucune erreur |
 | Fabrication physique | Non réalisée |
-| Assemblage et tests | Non réalisés |
+| Assemblage | Non réalisé |
+| Essais physiques | Non réalisés |
 
-**Remarque :** la validation DRC confirme le respect des règles de conception vérifiées par KiCad. Elle ne constitue pas une validation du fonctionnement d'un prototype physique.
+> **Remarque :** le projet est au stade de la conception numérique. Les contrôles DRC sans erreur confirment le respect des règles de conception vérifiées par KiCad, mais ne constituent pas une validation du fonctionnement d'un prototype physique.
 
-## Documents et images
+### Documentation technique
 
-Les documents techniques et les images du projet seront ajoutés dans les dossiers correspondants du dépôt.
+Les documents techniques sont disponibles dans le répertoire [documents/](documents/).
+
+- [Schéma électronique – Arduino Nano](documents/SCHEMATIC%20ADAPTER%20%20FOR%20NANO.pdf)
+- [Côté composants – Arduino Nano](documents/COTE%20COMPOSANT%20ADAPTER%20%20FOR%20NANO.pdf)
+- [Typon du circuit imprimé](documents/TYPON%20%20ADAPTER%20%20FOR%20NANO.pdf)
 
 ---
 
-## 🇬🇧 Overview
+## 🇬🇧 English
 
-This project focuses on the design of a terminal adapter board for the Arduino Nano. It provides easier access to the board's pins through screw terminals, simplifying connections with external electronic components.
+### Overview
 
-The schematic design and PCB layout were completed using **KiCad**.
+**Arduino Nano Terminal Adapter** is a PCB design project intended for the Arduino Nano.
 
-## Objectives
+The board provides easier access to the Arduino Nano pins through screw terminals, simplifying signal and peripheral connections in electronic applications.
 
-- Make Arduino Nano signal connections easier.
+The electronic schematic and PCB layout were designed using **KiCad EDA**.
+
+### Objectives
+
+- Make Arduino Nano pin connections easier.
 - Group connections through screw terminals.
-- Provide a practical interface board for electronic projects.
+- Design a practical interface for electronic applications.
+- Verify the schematic and PCB against design rules.
 
-## Work completed
+### Technical specifications
 
-- Electronic schematic design.
+| Parameter | Description |
+|---|---|
+| Application | Arduino Nano terminal adapter |
+| Compatible board | Arduino Nano |
+| Connectivity | Screw terminals |
+| Design software | KiCad EDA |
+| Electronic design | Schematic |
+| PCB design | Completed |
+| DRC verification | Passed, no errors |
+
+### Work completed
+
+- Electronic schematic design using KiCad.
 - PCB design and routing.
-- Design Rule Check (DRC) verification for both schematic and PCB.
+- Schematic DRC verification.
+- PCB DRC verification.
 - Correction of detected errors until both checks were error-free.
 
-## Project status
+### Project gallery
+
+The following images show different views of the adapter board design.
+
+| Design view | Preview |
+|---|---|
+| View 1 | ![View 1](images/ADAPTATEUR%20NANO-2.jpg) |
+| View 2 | ![View 2](images/ADAPTATEUR%20NANO1-2.jpg) |
+| View 3 | ![View 3](images/ADAPTATEUR%20NANO1-2.png) |
+| View 4 | ![View 4](images/IMG-20261109-WA0032.jpg) |
+| View 5 | ![View 5](images/IMG-20261109-WA0034.jpg) |
+| View 6 | ![View 6](images/IMG-20261109-WA0037.jpg) |
+
+### Project status and limitations
 
 | Item | Status |
 |---|---|
 | Electronic schematic | Completed |
-| PCB layout | Completed |
-| DRC verification | Passed, no errors |
+| PCB design | Completed |
+| Schematic DRC verification | Passed, no errors |
+| PCB DRC verification | Passed, no errors |
 | Physical fabrication | Not performed |
-| Assembly and testing | Not performed |
+| Assembly | Not performed |
+| Physical testing | Not performed |
 
-**Note:** DRC verification confirms compliance with the design rules checked by KiCad. It does not validate the operation of a physical prototype.
+> **Note:** this project is currently at the digital design stage. Error-free DRC checks confirm compliance with the design rules verified by KiCad, but do not validate the operation of a physical prototype.
 
-## Documents and images
+### Technical documentation
 
-Technical documents and project images will be added to their respective repository folders.
+Technical documents are available in the [documents/](documents/) directory.
+
+- [Electronic schematic – Arduino Nano](documents/SCHEMATIC%20ADAPTER%20%20FOR%20NANO.pdf)
+- [Component placement – Arduino Nano](documents/COTE%20COMPOSANT%20ADAPTER%20%20FOR%20NANO.pdf)
+- [PCB artwork](documents/TYPON%20%20ADAPTER%20%20FOR%20NANO.pdf)
+
+---
+
+## Contact
+
+**OLI OLI DONALD · OLITECH**  
+Cameroon  
+GitHub: [DONALDOLI1](https://github.com/DONALDOLI1)
+
+*OLITECH — Electronic design and practical engineering.*
